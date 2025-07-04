@@ -1,61 +1,107 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Yongin Choi",
+    "label": "Computational scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "yonchoi@ucdavis.edu",
+    "phone": "",
+    "url": "https://yonchoi.github.io/",
+    "summary": "I am a computational scientist specializing in machine learning applications to biology",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "",
+      "postalCode": "CA",
+      "city": "Davis",
       "countryCode": "US",
       "region": "California"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Linkedin",
+        "username": "yongin-choi",
+        "url": "www.linkedin.com/in/yongin-choi"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "University of California, Davis",
+      "position": "Graduate researcher",
+      // "url": "https://example.com",
+      "startDate": "2017-09",
+      "endDate": "2025-08",
+      "summary": "",
+      "highlights": ["Deciphering mechanism of gene regulation across biological scales through interpretable machine learning.",
+                     "Identifying set of genes driving cellular heterogeneity through interpretable dimensionality reduction method",
+                    "Modeling mechanisms of epigenetic regulation of gene transcription with sequence-based large language model (LLM)",
+                    "Multi-disciplinary collaborations for holistic study of gene regulation (transcriptional dynamics and cell-to-cell interactions)"]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Altius Institute of Biomedical Sciences",
+      "position": "Computational scientist",
+      // "url": "https://example.com",
+      "startDate": "2023-09",
+      "endDate": "2024-12",
+      "summary": "",
+      "highlights": ["Built representation model for multi-modal and multi-scale representation of the whole human genome for navigation, narration, and similarity search for integration into next-generation genome browser",
+                    "Designed sequence-based model for annotating regulatory elements from FIBER-seq data"]
+    },
+    {
+      "name": "Asimov",
+      "position": "Computational biologist intern",
+      // "url": "https://example.com",
+      "startDate": "2022-08",
+      "endDate": "2022-12",
+      "summary": "",
+      "highlights": ["Developed protein prediction model based on state-of-art protein language model that outperformed off-the-shelf models on multiple public protein datasets.",
+                    "Implemented web-scraping pipeline for large metadata for genes from public databases"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "University of California, Davis",
+      "location": "Davis, CA",
+      "area": "Biomedical engineering",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2017-09",
+      "endDate": "2025-07",
+      "courses": ["Advisor: Gerald Quon"]
+    }
+  ],
+  "publications": [
+    {
+      "name": "siVAE: interpretable deep generative models for single-cell transcriptomes",
+      "publisher": "Genome Biology",
+      "releaseDate": "2023",
+      "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02850-y",
+      "summary": "Choi, Y., Li, R. & Quon, G"
+    },
+    {
+      "name": "Deciphering the history of ERK activity from fixed-cell immunofluorescence measurements",
+      "publisher": "Nature Communications",
+      "releaseDate": "2025",
+      "url": "https://www.nature.com/articles/s41467-025-58348-7",
+      "summary": "Ram, A., Pargett, M., Choi, Y., Murphy, D., Cabel, M., Kosaisawe, N., Quon, G., Albeck, J."
+    },
+    {
+      "name": "Biophysical modeling with variational autoencoders for bimodal, single-cell RNA sequencing data",
+      "publisher": "Nature Methods",
+      "releaseDate": "2024",
+      "url": "https://www.nature.com/articles/s41592-024-02365-9",
+      "summary": "Carilli, M., Gorin, G., Choi, Y., Chara, T., Pachter, L"
+    },
+    {
+      "name": "sciLaMA: A Single-Cell Representation Learning Framework to Leverage Prior Knowledge from Large Language Models",
+      "publisher": "International Conference on Machine Learning",
+      "releaseDate": "2025",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.01.28.635153v2",
+      "summary": "Hongru Hu, Shuwen Zhang, Yongin Choi, Venkat S. Malladi, Gerald Quon"
+    },
+    {
+      "name": "Systems-Level Properties of EGFR-RAS-ERK Signaling Amplify Local Signals to Generate Dynamic Gene Expression Heterogeneity.",
+      "publisher": "Cell Systems",
+      "releaseDate": "2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32726596/",
+      "summary": "Davies, A., Pargett, M., Siebert, S., Gillies, T., Choi, Y., Tobin, S., Ram, A., Murthy, V., Juliano, C., Quon, G., Bissell, M., Albeck, J."
     }
   ],
   "awards": [
@@ -67,6 +113,14 @@
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
+  "selected talk and poster": [
+    {
+      "name": "Interpretable visualization of single cells and their gene co-regulatory patterns (poster)",
+      "date": "2021",
+      "conference": "CSHL Probabilistic Modeling in Genomics 2021",
+      "summary": ""
+    }
+  ],
   "certificates": [
     {
       "name": "Machine Learning",
@@ -74,64 +128,6 @@
       "issuer": "Stanford University",
       "url": "https://example.com",
       "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
     }
   ],
   "skills": [
@@ -180,21 +176,16 @@
       "name": "Professor John Doe",
       "icon": "fa-solid fa-laptop",
       "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
   ],
   "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
+    // {
+    //   "name": "Quantum Computing",
+    //   "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
+    //   "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+    //   "startDate": "2018-01-01",
+    //   "endDate": "2018-01-01",
+    //   "url": "https://example.com"
+    // }
   ]
 }
