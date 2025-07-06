@@ -26,7 +26,6 @@
     {
       "name": "University of California, Davis",
       "position": "Graduate researcher",
-      // "url": "https://example.com",
       "startDate": "2017-09",
       "endDate": "2025-08",
       "summary": "",
@@ -38,7 +37,6 @@
     {
       "name": "Altius Institute of Biomedical Sciences",
       "position": "Computational scientist",
-      // "url": "https://example.com",
       "startDate": "2023-09",
       "endDate": "2024-12",
       "summary": "",
@@ -48,7 +46,6 @@
     {
       "name": "Asimov",
       "position": "Computational biologist intern",
-      // "url": "https://example.com",
       "startDate": "2022-08",
       "endDate": "2022-12",
       "summary": "",
@@ -65,6 +62,14 @@
       "startDate": "2017-09",
       "endDate": "2025-07",
       "courses": ["Advisor: Gerald Quon"]
+    },
+    {
+      "institution": "Rice University",
+      "location": "Houston, TX",
+      "area": "Chemical and biomolecular engineering",
+      "studyType": "BS",
+      "startDate": "2013-08",
+      "endDate": "2017-05"
     }
   ],
   "publications": [
@@ -113,38 +118,66 @@
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
-  "selected talk and poster": [
+  "presentations": [
     {
       "name": "Interpretable visualization of single cells and their gene co-regulatory patterns (poster)",
-      "date": "2021",
-      "conference": "CSHL Probabilistic Modeling in Genomics 2021",
-      "summary": ""
-    }
-  ],
-  "certificates": [
+      "releaseDate": "2021",
+      "publisher": "CSHL Probabilistic Modeling in Genomics 2021"
+    },
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "A Hands-On Tutorial for Training Interpretable Variational Autoencoders Using siVAE (workshop)",
+      "releaseDate": "2020",
+      "publisher": "Open Data Science Conference (ODSC) West 2020"
+    },
+    {
+      "name": "siVAE: interpreting latent dimensions within variational autoencoders (poster)",
+      "releaseDate": "2020",
+      "publisher": "ICML workshop on Human Interpretability in Machine Learning"
+    },
+    {
+      "name": "Analysis of Transcriptional Cell State through Machine Learning (talk)",
+      "releaseDate": "2019",
+      "publisher": "Northern California Computational Biology Symposium"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Programming",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "DL libraries (PyTorch, TensorFlow, JAX)",
+        "R",
+        "UNIX",
+        "HPC",
+        "GCP/AWS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Datasets",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "scRNA-seq",
+        "scATAC-seq",
+        "epigenetic assays",
+        "live reporter assays",
+        "protein sequence data"
       ]
     }
   ],
+  "certificates": [
+    // {
+    //   "name": "Machine Learning",
+    //   "date": "2018-01-01",
+    //   "issuer": "Stanford University",
+    //   "url": "https://example.com",
+    //   "icon": "fa-solid fa-location-dot"
+    // }
+  ],
+
   "languages": [
     {
       "language": "German",
