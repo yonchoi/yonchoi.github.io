@@ -191,6 +191,11 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _pages/teaching.md
+  - _pages/repositories.md
+  - _pages/profiles.md
+  - _news/announcement_*.md
+
 keep_files:
   - CNAME
   - .nojekyll
@@ -633,6 +638,7 @@ jsonresume:
   - work
   - education
   - publications
+  - presentations
   - projects
   - volunteer
   - awards
